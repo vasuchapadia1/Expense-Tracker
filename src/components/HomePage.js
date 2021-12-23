@@ -1,11 +1,11 @@
-import React from "react";
+import * as React from "react";
+import HomeBar from "./HomeBar.js";
 
 const HomePage = () => {
   return (
-    <React.Fragment>
-      <h1>HomePage</h1>
-    </React.Fragment>
+    <>
+      <HomeBar />
+    </>
   );
 };
-
 export default HomePage;
