@@ -1,10 +1,9 @@
 import * as React from "react";
-import HomeBar from "./HomeBar.js";
-
+import Header from "./NavBar";
 const HomePage = () => {
   return (
     <>
-      <HomeBar />
+      <Header />
     </>
   );
 };
